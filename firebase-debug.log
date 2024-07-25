@@ -1,0 +1,88 @@
+[debug] [2024-07-11T10:05:44.464Z] ----------------------------------------------------------------------
+[debug] [2024-07-11T10:05:44.483Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-11T10:05:44.486Z] CLI Version:   13.13.1
+[debug] [2024-07-11T10:05:44.487Z] Platform:      win32
+[debug] [2024-07-11T10:05:44.488Z] Node Version:  v20.8.0
+[debug] [2024-07-11T10:05:44.489Z] Time:          Thu Jul 11 2024 22:05:44 GMT+1200 (New Zealand Standard Time)
+[debug] [2024-07-11T10:05:44.490Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-11T10:05:45.081Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-11T10:05:45.086Z] > authorizing via signed-in user (bhavana19.sharma@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\MCSD61\my-web-appbs
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-11T10:07:50.211Z] Using project from CLI flag: react-hosting-d1-6fe00
+[debug] [2024-07-11T10:07:50.226Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 [none]
+[debug] [2024-07-11T10:07:50.996Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 401
+[debug] [2024-07-11T10:07:50.998Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-07-11T10:07:51.000Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-07-11T10:07:51.390Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project react-hosting-d1-6fe00. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-07-11T10:16:41.784Z] ----------------------------------------------------------------------
+[debug] [2024-07-11T10:16:41.792Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-11T10:16:41.794Z] CLI Version:   13.13.1
+[debug] [2024-07-11T10:16:41.794Z] Platform:      win32
+[debug] [2024-07-11T10:16:41.795Z] Node Version:  v20.8.0
+[debug] [2024-07-11T10:16:41.797Z] Time:          Thu Jul 11 2024 22:16:41 GMT+1200 (New Zealand Standard Time)
+[debug] [2024-07-11T10:16:41.798Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-11T10:16:42.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-11T10:16:42.112Z] > authorizing via signed-in user (bhavana19.sharma@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\MCSD61\my-web-appbs
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-11T10:16:54.273Z] Using project from CLI flag: react-hosting-d1-6fe00
+[debug] [2024-07-11T10:16:54.279Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 [none]
+[debug] [2024-07-11T10:16:55.001Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 401
+[debug] [2024-07-11T10:16:55.002Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-hosting-d1-6fe00 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-07-11T10:16:55.003Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-07-11T10:16:55.400Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project react-hosting-d1-6fe00. Please make sure the project exists and your account has permission to access it.
